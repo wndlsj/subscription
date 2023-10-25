@@ -16,7 +16,7 @@ export default defineAppConfig({
     {
       key: 1,
       name: '软件更新',
-      activityIds: 'com.luckin.client.main.FirstActivity',
+      activityIds: 'com.luckin.commclient.update.UpdateActivity',
       rules:
         '@ImageView[id="com.lucky.luckyclient:id/dismiss_btn"] - LinearLayout > ImageView[id="com.lucky.luckyclient:id/update_btn"]',
       snapshotUrls: 'https://i.gkd.li/import/12846499',
